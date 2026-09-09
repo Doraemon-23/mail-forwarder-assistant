@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net462</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>7.3</LangVersion>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AssemblyName>邮件转发助手</AssemblyName>
+    <RootNamespace>MailForwarderAssistant</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Version>1.0.10</Version>
+    <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
+    <DebugSymbols Condition="'$(Configuration)' == 'Release'">false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="LiteDB" Version="5.0.21" />
+    <PackageReference Include="MailKit" Version="4.17.0" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net462" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

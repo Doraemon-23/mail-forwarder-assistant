@@ -1,0 +1,16 @@
+.vs/
+**/bin/
+**/obj/
+artifacts/
+output/
+tmp/
+Data/
+.tools/
+.tmp/
+TestResults/
+*.db
+*.db-shm
+*.db-wal
+*.zip
+*.user
+*.suo
